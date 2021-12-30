@@ -1,0 +1,56 @@
+.primeiro {
+    width: 250px;
+    height: 150px;
+    background-image: url(https://i.imgur.com/hRJuk7p.gif);
+    background-position: center;
+    background-size: cover;
+    margin-left: 140px;
+    border-top: 2px solid #ea7611;
+    border-radius: 0px 5px 0px 0px;
+    display: inline-flex;
+}
+
+.segundo {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://i.imgur.com/fHUoGEL.gif);
+    background-position: center;
+    background-size: cover;
+    margin-left: -400px;
+    border-top: 2px solid #ea7611;
+    border-radius: 5px 0px 0px 0px;
+    display: inline-flex;
+}
+
+.terceiro {
+    width: 10px;
+    height: 154px;
+    background-color: none;
+    margin-left: -30px;
+    display: inline-flex;
+}
+
+.texto {
+    font-family: 'andayani';
+    font-size: 60px;
+    margin-top: -40px;
+    color: #6c1e30;
+    text-shadow: -1px -1px white, 1px 1px #ea7611
+}
+
+.frase {
+    width: 395px;
+    height: 20px;
+    text-transform: uppercase;
+    font: 12px Arial;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -5px;
+    color: #404040;
+}
+
+@font-face {
+    font-family: "andayani";
+    src: url(https://dl.dropbox.com/s/pzi9agwz4rbu88i/andayani.ttf);
+    format("truetype");
+}
